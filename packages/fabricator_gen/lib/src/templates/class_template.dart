@@ -1,5 +1,5 @@
-import 'package:fabricator_gen/src/templates/file_template.dart';
-import 'package:fabricator_gen/src/templates/template.dart';
+import 'file_template.dart';
+import 'template.dart';
 
 sealed class ClassTypeTemplate implements Template<ClassTemplate> {}
 

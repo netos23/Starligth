@@ -1,9 +1,7 @@
 import 'package:build/build.dart';
-import 'package:source_gen/source_gen.dart';
 
-import 'src/fabricator_generator.dart';
+import 'src/discoverer/fabricator_annotation_discoverer_builder.dart';
 
-Builder fabricatorBuilder(BuilderOptions options) => SharedPartBuilder(
-      [FabricatorGenerator()],
-      'fabricator',
-    );
+
+Builder fabricatorAnnotationDiscovererBuilder(BuilderOptions options) =>
+    FabricatorAnnotationDiscovererBuilder(options);

@@ -1,4 +1,4 @@
-import 'package:fabricator_gen/src/templates/template.dart';
+import 'template.dart';
 
 class FileTemplate implements Template<Template> {
   final List<Template> members;

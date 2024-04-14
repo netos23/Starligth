@@ -8,7 +8,7 @@ builders:
   fabricator_gen:
     target: ":fabricator_gen"
     import: "package:fabricator_gen/fabricator_builder.dart"
-    builder_factories: ["fabricatorBuilder"]
+    builder_factories: ["fabricatorAnnotationDiscovererBuilder"]
     build_extensions: {".dart": [".fabricator.g.part"]}
     auto_apply: dependents
     build_to: cache

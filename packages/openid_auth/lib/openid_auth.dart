@@ -1,0 +1,2 @@
+library openid_auth;
+
